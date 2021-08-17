@@ -13,7 +13,7 @@
 ## Description:
 This is back end and front end project that help users to create their on notes and add them in a web page that will help them to save the data, and it was made by using node and express.js and have all functionality and getting the data from the back end to the front end. 
 
-
+[Click here to see the running Note Taker !](ldjskfs)
 ## Technologies
 ```
 - HTML.
@@ -21,8 +21,8 @@ This is back end and front end project that help users to create their on notes 
 - BOOTSTRAP.
 - NODE.JS.
 - EXPRESS.JS.
+- HEROKU.
 ```
-
 
 
 ### Installation
@@ -49,7 +49,6 @@ Give a ⭐️ if you like this project!
 ![ScreenShots](./screenshots/Note-Taker5.png) 
 
 
-[full demo video](gdfg)
 
 ### Questions? 
 For any questions, please contact me with the information below:
