@@ -1,3 +1,4 @@
+// requiring the modules that will be imported
 const express = require("express");
 const router = express.Router();
 const {
@@ -8,11 +9,13 @@ const {
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 
+// GET router that will direct the request to the db.json that will be sent to as json
 router.get("/", (req, res) => {
   readFromFile("./db/db.json").then(data => res.json(JSON.parse(data)));
 
 });
 
+// DELETE router that will delete the requested ID 
 router.delete("/:id", (req, res) => {
   const { id } = req.params;
   console.log(req.params.id);
@@ -26,6 +29,7 @@ router.delete("/:id", (req, res) => {
   return res.send();
 });
 
+// POST method that will return the value of the title and text and give a unique ID in db.json file 
 router.post("/", (req, res) => {
   const { title, text } = req.body;
   if (title && text) {
@@ -41,4 +45,5 @@ router.post("/", (req, res) => {
   }
 });
 
+// export the Router 
 module.exports = router;
