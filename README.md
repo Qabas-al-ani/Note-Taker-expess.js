@@ -42,7 +42,12 @@ Give a ⭐️ if you like this project!
 
 ### A Screenshot of my deployed Note Taker
 
-![ScreenShots](dfgdfg) 
+![ScreenShots](./screenshots/Note-Taker1.png) 
+![ScreenShots](./screenshots/Note-Taker2.png) 
+![ScreenShots](./screenshots/Note-Taker3.png) 
+![ScreenShots](./screenshots/Note-Taker4.png) 
+![ScreenShots](./screenshots/Note-Taker5.png) 
+
 
 [full demo video](gdfg)
 
